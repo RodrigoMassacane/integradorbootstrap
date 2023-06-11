@@ -3,13 +3,10 @@
 }
 
 
-.tickets{
-    background-image: url(https://wallpaperaccess.com/full/4484586.jpg);
-}
 
-.cuerpo {
+
+
     
-}
 
 
 .js {
@@ -71,3 +68,22 @@ color: green;
 
 }
 
+.oculto {
+    display:none;
+}
+
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap ;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+
+.imgticketss {
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+    margin-top: 1rem;
+}
