@@ -50,7 +50,7 @@ sweetticket.addEventListener("click", () => {
                         <div class = "card-body">
                      <h5>${ticket.nombre} </h5>
                      <p>${ticket.precio} </p>
-                  <button class "btn colorboton" id = "boton ${ticket.id}" > Agregar Al Carrito </button>
+                  <button class "btn colorBoton" id = "boton ${ticket.id}" > Agregar Al Carrito </button>
                </div>
             </div> `
 
@@ -112,7 +112,7 @@ const agregaralcarrito = (id) =>{
                      <h5>${ticket.nombre} </h5>
                      <p>${ticket.precio} </p>
                      <p>${ticket.cantidad} </p>
-                  <button class "btn colorboton" id = "eliminar${ticket.id}" > eliminar ticket </button>
+                  <button class "btn colorBoton" id = "eliminar${ticket.id}" > eliminar ticket </button>
                </div>
             </div> `
 
